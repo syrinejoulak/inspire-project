@@ -1,0 +1,50 @@
+@import './mixins';
+@import './fonts';
+@import './variable';
+
+body {
+  background-color: var(--white-smoke);
+  font-family: 'Heebo';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.alert_text {
+  color: #df3737;
+}
+
+input,
+select {
+  border: none;
+  font-family: 'Heebo';
+
+  &:focus {
+    outline: none;
+    border: transparent;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-jcsb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
