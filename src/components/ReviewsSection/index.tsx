@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+
+import ReviewsSwiper from './ReviewsSwiper';
+
+import classes from './ReviewsSection.module.scss';
 
 const ReviewsSection = () => {
   return (
-    <div>ReviewsSection</div>
-  )
-}
+    <section className={classes.reviews_section}>
+      <h2 className={classes.title}>Derniers avis déposés</h2>
+      <p>
+        Derniers avis déposés par des utilisateurs inscrits sur la plateforme ou
+        publiés en ligne suite à un audit RSE
+      </p>
 
-export default ReviewsSection
+      <ReviewsSwiper />
+    </section>
+  );
+};
+
+export default ReviewsSection;

@@ -1,0 +1,19 @@
+.reviews_section {
+  background-color: #f5f8fb;
+  text-align: center;
+  padding: 69px 0 107px 0;
+
+  .title {
+    font-family: 'Heebo Medium';
+    font-size: 40px;
+    color: var(--cyan-bleu);
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: 'Heebo Light';
+    font-size: 16px;
+    color: #6f7b84;
+    margin-bottom: 55px;
+  }
+}
