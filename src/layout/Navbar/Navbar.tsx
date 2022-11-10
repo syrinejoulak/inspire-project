@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { GrLanguage } from 'react-icons/gr';
-import Button from '../UI/Button/Button';
+import Button from '../../UI/Button/Button';
 
 import classes from './Navbar.module.scss';
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className={`${classes.navbar} flex-jcsb`}>
-        <img src="/logo.png" alt="logo" className={classes.logo} />
+        <img src="/assets/logo.png" alt="logo" className={classes.logo} />
 
         <ul className={`${classes.navbar__heading} flex-jcsb`}>
           <li>Noter</li>

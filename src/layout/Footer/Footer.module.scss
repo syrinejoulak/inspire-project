@@ -1,0 +1,52 @@
+footer {
+  background-color: var(--cyan-bleu);
+
+  .footer__container {
+    display: flex;
+    max-width: 1300px;
+    padding: 89px 0 132px 142px;
+    gap: 197px;
+
+    .footer__logo {
+      width: 320px;
+      height: 116px;
+      margin-bottom: 90px;
+    }
+
+    .socialMedial__container {
+      display: flex;
+      gap: 20px;
+      a {
+        width: 42px;
+        height: 42px;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 53px;
+      color: white;
+
+      .footer__link {
+        .title {
+          font-family: 'Heebo Medium';
+          font-size: 20px;
+          margin-bottom: 29px;
+        }
+
+        .url {
+          font-size: 16px;
+          margin-bottom: 21px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
