@@ -1,0 +1,40 @@
+header {
+  background-image: url('/public/assets/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 161px 0 198px 142px;
+
+  .header__container {
+    font-family: 'Heebo Bold';
+    width: 676px;
+    color: white;
+    line-height: 1;
+
+    .title {
+      font-size: 60px;
+    }
+
+    .slogan {
+      font-size: 20px;
+      padding: 25px 0;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 52px;
+        height: 52px;
+        margin-right: 20px;
+      }
+
+      span {
+        font-family: 'Heebo Bold';
+        font-size: 18px;
+        color: white;
+      }
+    }
+  }
+}

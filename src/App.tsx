@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Header from './components/Header';
+import IntroSection from './components/IntroSection';
+import ReviewsSection from './components/ReviewsSection';
 import Layout from './layout';
 
 import './styles/globals.scss';
@@ -7,9 +10,9 @@ import './styles/globals.scss';
 function App() {
   return (
     <Layout>
-      <div className="App" style={{ backgroundColor: 'red' }}>
-        Hey
-      </div>
+      <Header />
+      <IntroSection />
+      <ReviewsSection />
     </Layout>
   );
 }
