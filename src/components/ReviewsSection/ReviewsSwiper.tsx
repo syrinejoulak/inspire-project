@@ -22,10 +22,11 @@ const ReviewsSwiper = () => {
 
   return (
     <Swiper
-      spaceBetween={50}
+      spaceBetween={32}
       slidesPerView={3}
       modules={[Pagination]}
       pagination={{ clickable: true }}
+      loop={true}
     >
       {Reviews}
     </Swiper>

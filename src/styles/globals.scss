@@ -55,6 +55,11 @@ button {
 
 .swiper {
   height: 450px;
+  overflow: visible;
+
+  .swiper-slide {
+    width: 410px !important;
+  }
 
   .swiper-pagination-bullets {
     .swiper-pagination-bullet-active {
