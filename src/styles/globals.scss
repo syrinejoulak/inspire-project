@@ -52,3 +52,13 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+.swiper {
+  height: 450px;
+
+  .swiper-pagination-bullets {
+    .swiper-pagination-bullet-active {
+      background: #0c263b;
+    }
+  }
+}
