@@ -51,11 +51,26 @@
     }
 
     .review {
-      padding: 20px 0;
+      padding: 20px 0 18px 0;
       border-bottom: 1px solid #e2e2e2;
 
       .rate {
+        display: flex;
         padding-bottom: 25px;
+
+        .rating_stars {
+          margin-right: 14px;
+
+          img {
+            width: 23px;
+            height: 23px;
+            margin-right: 4px;
+          }
+        }
+
+        h4 {
+          padding-top: 2px;
+        }
       }
 
       h4,

@@ -13,8 +13,8 @@ const FooterLinks = ({ title, links }: FooterLinksProps) => {
       <h4 className={classes.title}>{title}</h4>
 
       <ul>
-        {links.map((link) => (
-          <li className={classes.url}>
+        {links.map((link, key) => (
+          <li className={classes.url} key={key}>
             <a href={link.url}>{link.title}</a>
           </li>
         ))}

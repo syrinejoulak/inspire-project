@@ -1,10 +1,15 @@
 import React from 'react';
 
+import { convertRateToStars } from '../../util/convertDataToJSX';
 import { Review } from '../../util/types';
 
 import classes from './ReviewsSection.module.scss';
 
 const ReviewsSwiperSlide = ({ company, review, user }: Review) => {
+  const rate = review.rate;
+
+  const rateStarsDisplay = convertRateToStars(rate);
+
   return (
     <div className={classes.card}>
       <div className={`${classes.company} flex`}>
@@ -17,7 +22,7 @@ const ReviewsSwiperSlide = ({ company, review, user }: Review) => {
 
       <div className={classes.review}>
         <div className={classes.rate}>
-          <div></div>
+          <div className={classes.rating_stars}>{rateStarsDisplay}</div>
           <h4>{review.rate}</h4>
         </div>
         <h4>Contributed in the lorem ipsum</h4>
