@@ -13,7 +13,11 @@ const Navbar = () => {
 
         <ul className={`${classes.navbar__heading} flex-jcsb`}>
           <li>Noter</li>
-          <li>Audit RSE</li>
+          <li>
+            <Button backgroundColor="rgb(232, 97, 97, 0.2)" color="#E86161">
+              Audit RSE
+            </Button>
+          </li>
           <li>Devenir pro</li>
           <li>Contact</li>
         </ul>

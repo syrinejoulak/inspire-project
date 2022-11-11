@@ -5,11 +5,15 @@ import classes from './Button.module.scss';
 interface ButtonProps {
   children: React.ReactNode;
   backgroundColor: string;
+  color?: string;
 }
 
-const Button = ({ children, backgroundColor }: ButtonProps) => {
+const Button = ({ children, backgroundColor, color }: ButtonProps) => {
   return (
-    <button className={classes.button} style={{ backgroundColor }}>
+    <button
+      className={classes.button}
+      style={{ backgroundColor, color }}
+    >
       {children}
     </button>
   );
