@@ -14,7 +14,11 @@ import 'swiper/css/pagination';
 const ReviewsSwiper = () => {
   const Reviews = DUMMY_REVIEWS.map((review: Review) => (
     <SwiperSlide>
-      <ReviewsSwiperSlide />
+      <ReviewsSwiperSlide
+        company={review.company}
+        review={review.review}
+        user={review.user}
+      />
     </SwiperSlide>
   ));
 

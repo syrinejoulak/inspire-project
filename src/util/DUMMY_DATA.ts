@@ -13,7 +13,7 @@ export const DUMMY_REVIEWS: Review[] = [
         "J'ai été très déçu, suite aux événements et échanges avec certaines personnes, j'ai été prise par le geiq. Mais..",
     },
     user: {
-      profileImgUrl: '/public/assets/user-img-1.png',
+      profileImgUrl: '/assets/user-img-1.png',
       id: '1454182',
     },
   },
@@ -29,7 +29,7 @@ export const DUMMY_REVIEWS: Review[] = [
         "J'ai été très déçu, suite aux événements et échanges avec certaines personnes, j'ai été prise par le geiq. Mais..",
     },
     user: {
-      profileImgUrl: '/public/assets/user-img-2.png',
+      profileImgUrl: '/assets/user-img-2.png',
       id: '1454182',
     },
   },
@@ -45,7 +45,7 @@ export const DUMMY_REVIEWS: Review[] = [
         "J'ai été très déçu, suite aux événements et échanges avec certaines personnes, j'ai été prise par le geiq. Mais..",
     },
     user: {
-      profileImgUrl: '/public/assets/user-img-3.png',
+      profileImgUrl: '/assets/user-img-3.png',
       id: '1454182',
     },
   },
@@ -61,7 +61,7 @@ export const DUMMY_REVIEWS: Review[] = [
         "J'ai été très déçu, suite aux événements et échanges avec certaines personnes, j'ai été prise par le geiq. Mais..",
     },
     user: {
-      profileImgUrl: '/public/assets/user-img-1.png',
+      profileImgUrl: '/assets/user-img-1.png',
       id: '1454182',
     },
   },
@@ -77,7 +77,7 @@ export const DUMMY_REVIEWS: Review[] = [
         "J'ai été très déçu, suite aux événements et échanges avec certaines personnes, j'ai été prise par le geiq. Mais..",
     },
     user: {
-      profileImgUrl: '/public/assets/user-img-3.png',
+      profileImgUrl: '/assets/user-img-3.png',
       id: '1454182',
     },
   },
